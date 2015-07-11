@@ -83,3 +83,33 @@ Possible Aligns: horizontal, vertical
 `
 
 ### 2. Events
+
+````JavaScript
+$("#your_element").bgCover({
+  onStart : function( obj ) {
+    // Triggered in the beginning of the effect
+  },
+    
+  onEnd : function( obj ) {
+    // Triggered in the end of the effect
+  },
+    
+  onEachRow : function( obj ) {
+    // Triggered when the script start run over new row
+  },
+    
+  onEachColumn : function( obj ) {
+    // Triggered in each of the square column
+  },
+    
+  onClickOut : function( obj ) {
+    arg.destroy(true); // destroy the effect and return to the site
+        
+    // Triggered when user click out of the element box
+  },
+    
+  onClickIn : function( obj ) {
+    // Triggered when user click in the element box
+  }
+});
+````
