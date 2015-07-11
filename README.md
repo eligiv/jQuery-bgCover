@@ -25,7 +25,7 @@ The plugin have defaults value for all of the options, so it's mean that you can
 $("#your_element").bgCover();
 ````
 
-### 1. Options
+### 1. Properties
 
 ````JavaScript
 $("#your_element").bgCover({
