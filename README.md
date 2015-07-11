@@ -56,3 +56,13 @@ bgcolor : [ "color 1", "color 2", "color 3", .... ] // Run about all of the colo
 
 bgcolor : "color 1" // Show all of the background in one color only
 ````
+
+Visibility Effect & hide In Hover Properies:
+
+`
+Possible effects: flip, fade, slideRight, slideDown
+`
+````JavaScript
+visibilityEffect  : "slideDown", // Show the squares in flip effects
+hideInHover       : "slideRight", // Fade out the square when mouse hover on it
+````
