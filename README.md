@@ -76,7 +76,7 @@ Possible Types: None, Random, Edges
 visibilityType: "random", // Show the square randomaly in the page 
 ````
 
-####Flip Align Property:
+#####Flip Align Property:
 
 `
 Possible Aligns: horizontal, vertical
