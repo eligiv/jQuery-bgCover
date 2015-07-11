@@ -103,7 +103,7 @@ $("#your_element").bgCover({
   },
     
   onClickOut : function( obj ) {
-    arg.destroy(true); // destroy the effect and return to the site
+    obj.destroy(true); // destroy the effect and return to the site
         
     // Triggered when user click out of the element box
   },
@@ -111,5 +111,25 @@ $("#your_element").bgCover({
   onClickIn : function( obj ) {
     // Triggered when user click in the element box
   }
+});
+````
+
+Event Object Paramter:
+
+`
+For now, you can only use destroy method in the object paramter, soon i will added more options
+`
+
+`
+obj.destroy((boolean) effect, (boolean) removeBox, (function) callback)
+
+- effect - destroy the effects with the same effects of the create settings, for example, if in the first init you set fading, in the destroy the square will hide in fading.
+- removeBox - choose if do you want to remove your element in the end of the destroy (recommanded for alert messages).
+- callback - what do you want to do when the effect destroy completely.
+`
+
+````JavaScript
+obj.destroy(true, false, function(){
+  // Triggered when the effects destroy completely.
 });
 ````
