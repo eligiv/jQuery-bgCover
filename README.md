@@ -117,10 +117,8 @@ $("#your_element").bgCover({
 Event Object Paramter:
 
 `
-For now, you can only use destroy method in the object paramter, soon i will added more options
-`
+For now, you can only use destroy method in the object paramter.
 
-`
 obj.destroy((boolean) effect, (boolean) removeBox, (function) callback)
 
 - effect - destroy the effects with the same effects of the create settings, for example, if in the first init you set fading, in the destroy the square will hide in fading.
