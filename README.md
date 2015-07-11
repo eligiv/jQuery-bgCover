@@ -29,21 +29,21 @@ $("#your_element").bgCover();
 
 ````JavaScript
 $("#your_element").bgCover({
-  interval          : 0.05,
-  bgcolor           : [ "rgb(187, 187, 187)", "gray", "#000" ],
-  rows              : 10,
-  columns           : 8,
-  visibilityEffect  : "flip",
-  visibilityType    : "edges",
-  hideInHover       : "fade",
-  flipAlign         : "horizontal",
-  effectDuration    : 0.3,
-  opacity           : 1,
-  effectType        : 3,
+  interval          : 0.05, // The interval of the square display
+  bgcolor           : [ "rgb(187, 187, 187)", "gray", "#000" ], // The background colors
+  rows              : 10, // Count of the squares in each of the columns
+  columns           : 8, // Count of the squares in each of the rows
+  visibilityEffect  : "flip", // Show the squares in flip effects
+  visibilityType    : "edges", // Show the squares in edges type
+  hideInHover       : "fade", // Fade out the square when mouse hover on it
+  flipAlign         : "horizontal", // Flip the squares in horizontal align
+  effectDuration    : 0.3, // Show the duration effect in 300ms
+  opacity           : 0.5, // Show the background in opacity of 0.5 
+  effectType        : 3, // The type of the effect, for current 3 mean "ease-out"
   
   // Message mode
-  messageMode       : true,
-  messageEffect     : 0.5,
-  messageEffectType : 0,
+  messageMode       : true, // Optimize the message mode to the center of the screen
+  messageEffect     : 0.5, // Show tranition effect in 500ms
+  messageEffectType : 0, // Alias of effectType according to the message mode only
 });
 ````
