@@ -132,4 +132,9 @@ obj.destroy(true, false, function(){
 });
 ````
 
+# Version 1.0.0
+
+Any comments, questions and bugs, you can send me an email in the address: 
 eligiv@gmail.com
+
+# Enjoy & Thank You !
