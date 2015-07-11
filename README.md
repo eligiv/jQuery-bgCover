@@ -137,4 +137,4 @@ obj.destroy(true, false, function(){
 Any comments, questions and bugs, you can send me an email in the address: 
 eligiv@gmail.com
 
-# Enjoy & Thank You !
+### Enjoy !
