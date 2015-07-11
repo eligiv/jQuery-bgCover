@@ -17,3 +17,5 @@ Create grid of squares that contain a lot of style effects, fast animation, full
 - Set tranistion to the Message Mode motion, it's good feature if do you want if you want to get the user's attention.
 - full events inidication, on start the effects, on end, on each of the rows, on each of the column, when user click our of your element block, on user click on your element block and etc.
 - You have an option to destroy the plugin effect on your element, you can do that via an object into the events.
+
+# Get Start
