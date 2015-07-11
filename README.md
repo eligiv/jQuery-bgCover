@@ -21,6 +21,6 @@ Create grid of squares that contain a lot of style effects, fast animation, full
 # Get Start
 The plugin have defaults value for all of the options, so it's mean that you can call him in the easy way:
 
-`
+````JavaScript
 $("#your_element").bgCover();
-`
+````
