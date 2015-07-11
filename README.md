@@ -47,3 +47,10 @@ $("#your_element").bgCover({
   messageEffectType : 0, // Alias of effectType according to the message mode only
 });
 ````
+
+Background Color Property:
+````JavaScript
+bgcolor : [ "color 1", "color 2", "color 3", .... ] // Run about all of the colors in the array
+//-----------------------//
+bgcolor : "color 1" // Show all of the background in one color only
+````
