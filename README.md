@@ -121,9 +121,7 @@ For now, you can only use destroy method in the object paramter.
 
 obj.destroy((boolean) effect, (boolean) removeBox, (function) callback)
 
-effect - destroy the effects with the same effects of the create settings, for example, if in the first init you set fading, in the destroy the square will hide in fading.
-removeBox - choose if do you want to remove your element in the end of the destroy (recommanded for alert messages).
-callback - what do you want to do when the effect destroy completely.
+
 `
 
 ````JavaScript
