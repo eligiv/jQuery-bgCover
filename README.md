@@ -63,6 +63,14 @@ Visibility Effect & hide In Hover Properies:
 Possible effects: flip, fade, slideRight, slideDown
 `
 ````JavaScript
-visibilityEffect  : "slideDown", // Slide down the square
+visibilityEffect  : "slideDown",  // Slide down the square
 hideInHover       : "slideRight", // Slide right the square when mouse over on it
+````
+
+Visibility Type Property:
+`
+Possible effects: None, Random, Edges
+`
+````JavaScript
+visibilityType: "random", // Show the square randomaly in the page 
 ````
