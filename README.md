@@ -19,3 +19,7 @@ Create grid of squares that contain a lot of style effects, fast animation, full
 - You have an option to destroy the plugin effect on your element, you can do that via an object into the events.
 
 # Get Start
+The plugin have defaults value for all of the options, so it's mean that you can call him in the easy way:
+`
+sdfsdf
+`
