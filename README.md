@@ -26,3 +26,24 @@ $("#your_element").bgCover();
 ````
 
 ### 1. Options
+
+````JavaScript
+$("#your_element").bgCover({
+  interval          : 0.05,
+  bgcolor           : [ "rgb(187, 187, 187)", "gray", "#000" ],
+  rows              : 10,
+  columns           : 8,
+  visibilityEffect  : "flip",
+  visibilityType    : "edges",
+  hideInHover       : "fade",
+  flipAlign         : "horizontal",
+  effectDuration    : 0.3,
+  opacity           : 1,
+  effectType        : 3,
+  
+  // Message mode
+  messageMode       : true,
+  messageEffect     : 0.5,
+  messageEffectType : 0,
+});
+````
