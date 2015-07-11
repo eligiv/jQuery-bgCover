@@ -24,3 +24,5 @@ The plugin have defaults value for all of the options, so it's mean that you can
 ````JavaScript
 $("#your_element").bgCover();
 ````
+
+### 1. Options
