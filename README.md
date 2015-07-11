@@ -51,6 +51,8 @@ $("#your_element").bgCover({
 Background Color Property:
 ````JavaScript
 bgcolor : [ "color 1", "color 2", "color 3", .... ] // Run about all of the colors in the array
-//-----------------------//
+
+//----------- OR ----------//
+
 bgcolor : "color 1" // Show all of the background in one color only
 ````
