@@ -68,9 +68,18 @@ hideInHover       : "slideRight", // Slide right the square when mouse over on i
 ````
 
 Visibility Type Property:
+
 `
-Possible effects: None, Random, Edges
+Possible Types: None, Random, Edges
 `
 ````JavaScript
 visibilityType: "random", // Show the square randomaly in the page 
 ````
+
+Flip Align Property:
+
+`
+Possible Aligns: horizontal, vertical
+`
+
+### 2. Events
