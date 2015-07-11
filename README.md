@@ -48,7 +48,8 @@ $("#your_element").bgCover({
 });
 ````
 
-Background Color Property:
+#####Background Color Property:
+
 ````JavaScript
 bgcolor : [ "color 1", "color 2", "color 3", .... ] // Run about all of the colors in the array
 
@@ -57,7 +58,7 @@ bgcolor : [ "color 1", "color 2", "color 3", .... ] // Run about all of the colo
 bgcolor : "color 1" // Show all of the background in one color only
 ````
 
-Visibility Effect & hide In Hover Properies:
+#####Visibility Effect & hide In Hover Properies:
 
 `
 Possible effects: flip, fade, slideRight, slideDown
@@ -67,7 +68,7 @@ visibilityEffect  : "slideDown",  // Slide down the square
 hideInHover       : "slideRight", // Slide right the square when mouse over on it
 ````
 
-Visibility Type Property:
+#####Visibility Type Property:
 
 `
 Possible Types: None, Random, Edges
@@ -114,7 +115,7 @@ $("#your_element").bgCover({
 });
 ````
 
-Event Object Paramter:
+#####Event Object Paramter:
 
 ````
 For now, you can only use destroy method in the object paramter.
