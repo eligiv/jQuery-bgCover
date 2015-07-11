@@ -117,6 +117,7 @@ $("#your_element").bgCover({
 Event Object Paramter:
 
 `
+
 For now, you can only use destroy method in the object paramter.
 
 obj.destroy((boolean) effect, (boolean) removeBox, (function) callback)
